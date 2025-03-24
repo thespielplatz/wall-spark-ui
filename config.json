@@ -1,0 +1,29 @@
+{
+  "width": 50,
+  "height": 5,
+  "displays": [
+    {
+      "active": false,
+      "type": "console"
+    },
+    {
+      "active": false,
+      "type": "wled",
+      "name": "Blockclock",
+      "host": "192.168.2.103",
+      "brightness": 50
+    },
+    {
+      "active": true,
+      "name": "Home - WoodClock",
+      "type": "wled",
+      "host": "192.168.1.100",
+      "brightness": 25      
+    }
+  ],
+  "scene": {
+    "leftLogo": "TheSpielplatz",
+    "rightLogo": "Sate",
+    "showSeconds": true
+  }
+}
